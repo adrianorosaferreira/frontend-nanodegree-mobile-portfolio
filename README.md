@@ -1,6 +1,23 @@
 ## Website Performance Optimization portfolio project
 
-[Project dist link](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html)
+### Conferencia
+
+1.PageSpeed Score
+
+1.1 Critical Rendering Path
+
+O arquivo 'index.html' atinge uam pontuação superior a 90 para 'Mobile' and 'Desktop'. Para a conferencia basta clicar neste [link](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html) e rodar o PageSpees para a avaliação do site.
+
+2 Getting Rid of Jank
+
+2.1 Frame Rate
+
+a) Foram realizadas otimizações em 'views/js/main.js' para que o arquivo 'views/pizza.html' renderize a uma taxa de 60fps ou mais quando o usuário rolar a pagina. Isto pode ser constatado acessando a pagina através deste [link](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/views/pizza.html) e avaliado sua performance atraves de uma ferremanta de desenvolvimento do browser.
+
+b) Foi corrigido a função de redimencionamento da pizza da pagina 'views/pizza.html'. Agora o seu tempo de redimencionamento é inferior a 5ms. O tempo de redimenciomaneto pode ser conferido com uma ferramenta de desenvolvimento do browse. O link para a pagina é [este](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/views/pizza.html) .
+
+
+### Challenge
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
