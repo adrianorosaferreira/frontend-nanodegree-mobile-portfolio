@@ -2,7 +2,7 @@
 
 ### Conferencia
 
-1.PageSpeed Score
+#### 1.PageSpeed Score
 
 1.1 Critical Rendering Path
 
@@ -10,11 +10,15 @@ O arquivo 'index.html' atinge uam pontuação superior a 90 para 'Mobile' and 'D
 
 2 Getting Rid of Jank
 
-2.1 Frame Rate
+#### 2.1 Frame Rate
 
 a) Foram realizadas otimizações em 'views/js/main.js' para que o arquivo 'views/pizza.html' renderize a uma taxa de 60fps ou mais quando o usuário rolar a pagina. Isto pode ser constatado acessando a pagina através deste [link](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/views/pizza.html) e avaliado sua performance atraves de uma ferremanta de desenvolvimento do browser.
 
 b) Foi corrigido a função de redimencionamento da pizza da pagina 'views/pizza.html'. Agora o seu tempo de redimencionamento é inferior a 5ms. O tempo de redimenciomaneto pode ser conferido com uma ferramenta de desenvolvimento do browse. O link para a pagina é [este](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/views/pizza.html) .
+
+#### 3 Organização do projeto
+
+O projeto foi divido em duas pastas : 'dist' e 'src'. O primeiro refere-se ao projeto modioficado e o segundo é o arquivo original do projeto para efeito de comparação. 
 
 
 ### Challenge
