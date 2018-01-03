@@ -450,6 +450,7 @@ var resizePizzas = function(size) {
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
     var randomPizzaContainer = document.querySelectorAll(".randomPizzaContainer");
+    // Added 'dx' and 'newwidth' var for outside of  'for loop' 
     var dx = determineDx(randomPizzaContainer[0], size);
     var newwidth = (randomPizzaContainer[0].offsetWidth + dx) + 'px';
 
@@ -457,6 +458,7 @@ var resizePizzas = function(size) {
       //var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
       //var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
       //document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
+      //Using 'randomPizzaContainer' var
       randomPizzaContainer[i].style.width = newwidth;
 
     }
@@ -473,6 +475,7 @@ var resizePizzas = function(size) {
 
 window.performance.mark("mark_start_generating"); // collect timing data
 
+// Added pizzasDiv var for outside of  'for loop' 
 var pizzasDiv = document.getElementById("randomPizzas");
 // This for-loop actually creates and appends all of the pizzas when the page loads
 for (var i = 2; i < 100; i++) {
@@ -509,8 +512,9 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.querySelectorAll('.mover');
+  // Added scrollTop var for outside of  'for loop' 
   var scrollTop = document.body.scrollTop;
-  
+
   for (var i = 0; i < items.length; i++) {
     // document.body.scrollTop is no longer supported in Chrome.
     //var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
