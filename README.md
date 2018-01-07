@@ -6,7 +6,7 @@
 
 1.1 Critical Rendering Path
 
-O arquivo 'index.html' atinge uam pontuação superior a 90 para 'Mobile' and 'Desktop'. Para a conferencia basta clicar neste [link](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html) e rodar o PageSpees para a avaliação do site.
+O arquivo 'index.html' atinge uma pontuação superior a 90 para 'Mobile' and 'Desktop'. Para a conferencia basta clicar neste [link](https://adrianorosaferreira.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html) e rodar o PageSpees para a avaliação do site.
 
 2 Getting Rid of Jank
 
