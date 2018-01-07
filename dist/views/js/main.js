@@ -513,7 +513,7 @@ function updatePositions() {
 
   var items = document.querySelectorAll('.mover');
   // Added scrollTop var for outside of  'for loop' 
-  var scrollTop = document.body.scrollTop;
+  var scrollTop = document.documentElement.scrollTop;
 
   for (var i = 0; i < items.length; i++) {
     // document.body.scrollTop is no longer supported in Chrome.
